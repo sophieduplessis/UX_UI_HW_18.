@@ -38,10 +38,14 @@ footer li:hover {
     margin: 0;
 }
 
+
 h1 {
     font-size: 80px;
-    padding: 30px;
     width: 50%;
+    color: #D1D1D1;
+    padding: 90px;
+    margin: 0;
+    font-family: Helvetica Neue; font-weight: 400;
 }
 
 p {
@@ -71,4 +75,11 @@ p {
     mix-blend-mode: lighten;
     top: -650px;
     right: -400px;
+}
+
+#mySkills {
+    color: #D1D1D1;
+    font-size: 28px; font-family: Helvetica Neue; font-weight: 400;
+    padding-top: 60px;
+    margin: 0;
 }
