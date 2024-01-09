@@ -109,7 +109,7 @@ p {
 #bookLook {
     position: absolute;
     right:-20px;
-    top:5600px;
+    top:5400px;
 }
 
 @media screen and (max-width:600px) {
