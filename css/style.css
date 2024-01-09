@@ -62,7 +62,7 @@ p {
     color: #D1D1D1;
     font-size: 20px; font-family: Helvetica Neue; font-weight: 400;
     padding-top: 10px;
-    width: 30%;
+    width: 40%;
 
 }
 
@@ -97,12 +97,12 @@ p {
     grid-template-areas:
     'one two three'
     'four five six';
-    width:auto;
+    width:100%;
     <!-- I dont understand why this is working but it is -->
 }   
 
 #CCF {
-    right:-100px;
+    right:-200px;
     position: absolute;
 }
 
@@ -112,3 +112,27 @@ p {
     top:5600px;
 }
 
+@media screen and (max-width:600px) {
+    
+    .flexContainer1{
+        display: inline-grid;
+        grid-gap: 5px;
+        padding:
+        grid-template-rows: 200px 200px 200px;
+        grid-template-areas:
+        'one'
+        'two';
+    }   
+
+    #CCF {
+        display:none;
+    }
+
+    #ato {
+        display:none;
+    }
+    #bookLook {
+        display:none;
+    }
+}
+    
