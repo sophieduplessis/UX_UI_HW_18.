@@ -1,6 +1,5 @@
 #topnav {
     color: #D1D1D1;
-    padding: 30px;
 }
 
 body {
@@ -18,8 +17,9 @@ ul {
 
 li {
     display:inline-block;
-    padding: 30px;
-    left: -30px;
+    padding: 90px;
+    font-size: 20px;
+    padding-top: 30px;
 }
 
 ul li:hover {
@@ -63,7 +63,7 @@ p {
     font-size: 20px; font-family: Helvetica Neue; font-weight: 400;
     padding-top: 10px;
     width: 30%;
-    padding-bottom: -50px;
+
 }
 
 
@@ -71,7 +71,7 @@ p {
     color: #D1D1D1;
     font-size: 28px; font-family: Helvetica Neue; font-weight: 400;
     padding-top: 60px;
-    padding: 60px;
+    padding: px;
     margin: 0;
 }
 
@@ -98,7 +98,7 @@ p {
     'one two three'
     'four five six';
     width:auto;
-    <!-- I dont understand why this is working but it is! -->
+    <!-- I dont understand why this is working but it is -->
 }   
 
 #CCF {
@@ -111,3 +111,4 @@ p {
     right:-20px;
     top:5600px;
 }
+
